@@ -49,15 +49,9 @@ function showData(apidata)
           option.innerHTML=obj.incorrect_answers[i];
           questionopt.append(option);
       }
-    
       questiondiv.append(questions,questionopt);
-      
-
   })
-
   questionsWrapper.append(questiondiv);
- 
-
 }
 
 
